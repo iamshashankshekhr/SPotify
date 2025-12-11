@@ -63,7 +63,8 @@
                 </div>
                 <div class="sticky-nav-options">
                     <button class="badge nav-item hide">Explore Primium</button>
-                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down"
+                            style="margin-right: 5px;"></i>Install App</button>
                     <i class="fa-regular fa-user nav-item"></i>
                 </div>
 
@@ -140,9 +141,9 @@
                     <img src="player_icon4.png" class="player-control-icon">
                 </div>
                 <div class="playback-bar">
-                    <span class="current-time">00:00</span>
-                    <input type="range" min="0" max="100" class="progress-bar" >
-                    <span class="total-time">3:33</span>
+                    <span class="current-time" id="timeDisplay">00:00</span>
+                    <input type="range" min="0" max="90" value="0" class="progress-bar" id="myProgressBar">
+                    <span class="total-time" id="TotalTime">3:33</span>
                 </div>
 
             </div>
@@ -150,5 +151,6 @@
         </div>
     </div>
 </body>
+<script src="main.js"></script>
 
 </html>
